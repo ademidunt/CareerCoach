@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css">
+    <script type = "text/javascript" src="Content.js"></script>
+  </head>
+  <body>
+    <div id="header">
+        <img src="ccbanner.png">
+    </div>
+    <div id="labels">
+        <label for="jobTitle">Job Title</label>
+        <textarea placeholder="Enter job title here" rows = "2" columns = "50" id="jobTitle" ></textarea>
+    </div>
+    <div id="labels">
+        <label for="jobLoc">Job Location</label>
+        <textarea placeholder="Enter job location here" rows = "2" columns = "5" id="jobLoc" ></textarea>
+    </div>
+    <div id="labels">
+        <label for="jobDescript">Job Description</label>
+        <textarea placeholder="Enter job description here" rows = "4" columns = "5" id="jobDescipt" ></textarea>
+    </div>
+    
+    <div id="labels" class="date">
+        <label for="deadline">Deadline </label>
+        <input type="date" id="deadline" name="Deadline">
+    </div>
+    <div id="labels" class="date">
+            <label for="Applied">Date Applied</label>
+            <input type="date" id="Applied" name="Date Applied">
+    </div>
+    
+    <br></br>
+    
+    <button id="button" onclick="saveJob()" > Save Job </button> 
+
+    <br></br>
+
+    <a href="savedjobs.html" target="_blank"> View All Saved Jobs </a>
+  </body>
+</html>
