@@ -61,4 +61,5 @@ document.addEventListener('DOMContentLoaded', function (){
             cell6.innerHTML = "cat test";
             index += 1;
         }
+        Storage.clear();
 }, false)

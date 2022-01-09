@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function (){
         // save something to local storage
         //use array pop and push functions
         var title = document.getElementById("jobTitle").value;
-        const jobtitle = [];
+        var jobtitle = [];
         jobtitle = localStorage.getObj('jobTitle');
         jobtitle.push(title);
         localStorage.setObj('jobTitle', jobtitle);
